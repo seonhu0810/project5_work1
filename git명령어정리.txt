@@ -17,8 +17,11 @@
     git commit -m "커밋 메시지"
 
 7. commit 이전에 계정정보 등록(--global 옵션은 해당 컴퓨터 전체에 적용)
+    git config list
     git config --global user.name "Your name"
     git config --global user.email "Your email"
+
+    git config --global --unset user.name
 
 8. comit 정보 확인
     git log
